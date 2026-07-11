@@ -66,7 +66,7 @@ export default function Hero() {
             className="flex flex-col sm:flex-row gap-6 mb-8 max-w-xl sm:max-w-2xl items-center sm:items-start text-left"
           >
             {/* Waving Avatar Image */}
-            <div className="w-28 h-28 sm:w-32 sm:h-32 border-4 border-black bg-[#0c0d2b] overflow-hidden flex-shrink-0 relative">
+            <div className="relative z-10 w-28 h-28 sm:w-80 sm:h-80 border-0 border-black bg-transparent overflow-hidden flex-shrink-0 -mr-4 sm:-mr-45 sm:-mt-48 -translate-x-28 translate-y-16">
               <img
                 src={AVATAR_WAVING_IMAGE}
                 alt="Ng Cu En Waving Avatar"
@@ -76,7 +76,7 @@ export default function Hero() {
             </div>
 
             {/* Intro paragraph */}
-            <p className="text-white/80 text-xs sm:text-sm leading-relaxed font-sans flex-1">
+            <p className="relative z-0 text-white/80 text-xs sm:text-sm leading-relaxed font-sans flex-1 -ml-4 sm:-ml-6 pl-4 sm:pl-6">
               Hi, I'm <strong className="text-brand-cyan font-bold">Ng Cu En</strong>. I am a visual creator with 4 years of experience delivering high-quality 3D game models at Ammobox Studio, now pursuing a dedicated career in graphic design. Leveraging my professional studio background, I have developed a strong body of graphic design work that showcases my eye for layout, typography, and color theory. I believe great design solves communication problems, whether through a 3D asset or a 2D digital graphic. I am adaptable, reliable, and ready to bring a fresh, multidisciplinary perspective to your design team.
             </p>
           </motion.div>
